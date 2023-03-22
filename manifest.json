@@ -10,7 +10,9 @@
     }
   ],
   "permissions": [
-    "activeTab",
+    "activeTab"
+  ],
+  "host_permissions": [
     "https://api.openai.com/*"
   ],
   "web_accessible_resources": [
@@ -21,5 +23,4 @@
       "matches": ["<all_urls>"]
     }
   ]
-  
 }
