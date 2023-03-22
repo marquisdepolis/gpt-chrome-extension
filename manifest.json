@@ -1,0 +1,25 @@
+{
+  "name": "Website Analyzer",
+  "version": "0.1",
+  "description": "Analyze selected text using OpenAI Completion API",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["analyzer_openai_user.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://api.openai.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "analyzer_openai_user.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+  
+}
