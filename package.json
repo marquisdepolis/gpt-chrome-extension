@@ -1,0 +1,28 @@
+{
+  "name": "contextgpt",
+  "version": "1.0.0",
+  "description": "Select, right click, and search GPT to understand anything on any website!",
+  "main": "analyzer_openai_user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marquisdepolis/gpt-chrome-extension.git"
+  },
+  "keywords": [
+    "GPT",
+    "Chrome",
+    "extension",
+    "search"
+  ],
+  "author": "Rohit Krishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marquisdepolis/gpt-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/marquisdepolis/gpt-chrome-extension#readme",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
