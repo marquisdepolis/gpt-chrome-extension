@@ -11,7 +11,7 @@
 
 function analyzeText(text) {
   console.log("here");
-  const apiUrl = 'https://your-vercel-function-url.com/api'; // Replace with your Vercel function URL
+  const apiUrl = 'https://vercel.com/marquisdepolis/gptsearch/B2jyxgUS3r5dQSLWZhYKeBjHf8XU';
 
   const button = document.getElementById('analyzer-floating-button');
   button.innerHTML = '<span class="spinner"></span>';
